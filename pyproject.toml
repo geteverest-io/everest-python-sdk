@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "everest-api-client"
+version = "1.0.0"
+description = "Simple Python client for Everest Logistics API"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+keywords = ["everest", "api", "logistics", "delivery"]
+authors = [
+    {name = "Everest", email = "contact@everst.io"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.urls]
+Homepage = "https://geteverest.io"
+Documentation = "https://github.com/everest/everest-python-sdk"
+Repository = "https://github.com/everest/everest-python-sdk"
+"Bug Reports" = "https://github.com/everest/everest-python-sdk/issues"
